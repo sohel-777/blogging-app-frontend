@@ -7,7 +7,10 @@ import MyBlogs from "./pages/MyBlogs";
 import Homepage from "./pages/Homepage";
 import Header from "./components/common/Header";
 import Users from "./pages/Users";
+import 'react-toastify/dist/ReactToastify.css';
 
+
+import "./App.css"
 function App() {
   return (
     <BrowserRouter>

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+
+}
+
+body {
+  background: linear-gradient(to right, #FFC0CB, #E6E6FA, #ADD8E6);
+  overflow-x: hidden;
+}
+
+.custom-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#bacground {
+  background: linear-gradient(to right, #FFC0CB, #E6E6FA, #ADD8E6);
+}
+
+#card {
+  background: linear-gradient(to bottom, #FFC0CB, #a5e2fa);
+}
+
+#navbar {
+  background: linear-gradient(to right, #ADD8E6, #E6E6FA, #FFC0CB) !important;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.logo {
+  z-index: 1;
+  height: 45px;
+  width: 50px;
+  object-fit: fill;
+}
+
+.custom-card {
+  perspective: 1000px;
+  transition: transform 0.5s;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  /* Deep shadow */
+}
+
+.custom-card:hover {
+  transform: rotateY(10deg);
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px rgba(250, 252, 252, 0.841);
+}
